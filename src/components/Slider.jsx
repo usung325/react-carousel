@@ -21,8 +21,8 @@ export default function Slider() {
                 ))}
                 <button onClick={clickRight} className="bg-pink-400 px-3 rounded-2xl max-h-10"> {'>'} </button>
             </div>
-            <div className="flex flex-row  max-w-full bg-green-300">
-                <SelectSlider imData={arr1} />
+            <div className="flex flex-row  max-w-full opacity-20">
+                <SelectSlider imData={arr1} changeArrIndex={changeArrIndex} />
             </div>
         </div>
     )
